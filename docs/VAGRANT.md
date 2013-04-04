@@ -21,6 +21,10 @@ on Discourse with:
 
 ### Using Vagrant
 
+Before you start the vagrant, some marginal work should be done to the configration files.
+
+cd to discourse/config and rename *.yml.sample to *.yml
+
 When you're ready to start working, boot the VM:
 ```
 vagrant up
